@@ -90,39 +90,55 @@
 ```
 repurchase_project_package/
 ├── src/                    # 核心源代码目录
-│   ├── pipeline_run.py     # 主入口，执行完整工作流
-│   ├── extract_fields.py   # 字段抽取模块（正则+LLM混合）
-│   ├── llm_utils.py        # LLM工具模块
-│   ├── parse_docs.py       # 文档解析模块
-│   ├── route_sections.py   # 章节路由模块
-│   ├── match_events.py     # 事件匹配模块
-│   ├── calculate_consistency.py  # 一致性计算
-│   ├── validate_results.py # 结果校验模块
-│   ├── common.py           # 通用工具函数
-│   └── schemas.py          # 数据结构定义
+│   ├── pipeline_run.py           # 主入口，执行完整工作流
+│   ├── extract_fields.py         # 字段抽取模块（正则+LLM混合）
+│   ├── llm_utils.py             # LLM工具模块（Moonshot API调用）
+│   ├── parse_docs.py            # 文档解析模块（MinerU集成）
+│   ├── route_sections.py        # 章节路由模块
+│   ├── match_events.py          # 事件匹配模块（方案→进展→结果）
+│   ├── calculate_consistency.py  # 一致性计算模块
+│   ├── quality_aware_consistency.py  # 质量感知一致性计算
+│   ├── quality_metrics.py       # 质量指标计算模块
+│   ├── validate_results.py      # 结果校验模块（Pydantic验证）
+│   ├── schemas.py               # 数据结构定义（Pydantic模型）
+│   └── common.py                # 通用工具函数
 ├── configs/                # 配置文件目录
 │   ├── workflow.yaml       # 工作流配置
-│   ├── model_config.yaml   # LLM模型配置
+│   ├── model_config.yaml   # LLM模型配置（Moonshot API）
 │   └── section_rules.yaml  # 章节规则配置
 ├── data/                   # 数据目录
 │   ├── metadata/           # 元数据文件
-│   │   └── metadata.csv    # 公告元数据（50家公司147份公告）
-│   └── md/                 # 公告MD文件（MinerU解析结果）
+│   │   └── metadata.csv    # 公告元数据（50家公司约150份公告）
+│   ├── parsed/            # 解析结果
+│   │   ├── parsed_docs.jsonl   # 解析后文档
+│   │   └── sections.jsonl      # 章节路由结果
+│   └── md.zip              # MinerU解析的Markdown文件压缩包
 ├── outputs/                # 分析结果输出
 │   ├── reports/            # 分析报告
-│   │   ├── final_report.pdf  # 综合技术报告
-│   │   └── summary_report_v2.md       # 评估结果汇总
-│   └── results/            # 结构化数据结果
-│       ├── records_validated.csv       # 字段抽取结果
-│       ├── event_timelines.json        # 事件时间线
-│       ├── parsed_docs.jsonl           # 解析文档
-│       └── sections.jsonl             # 章节路由结果
-├── .env                    # 环境变量配置（不提交）
+│   │   ├── consistency_report.json     # 一致性分析报告
+│   │   ├── kimi_review_report.json     # LLM复核报告
+│   │   └── section_check_report.csv    # 章节检查报告
+│   ├── results/            # 结构化数据结果
+│   │   ├── records_validated.csv       # 字段抽取结果（CSV）
+│   │   ├── records_validated.jsonl      # 字段抽取结果（JSONL）
+│   │   ├── extract_results.jsonl        # 抽取结果明细
+│   │   ├── quality_metrics.jsonl        # 质量指标
+│   │   └── event_timelines.json         # 事件时间线
+│   ├── logs/               # 日志文件
+│   │   ├── run_log.jsonl            # 运行日志
+│   │   └── validation_errors.jsonl  # 校验错误日志
+│   └── cache.zip           # 缓存文件压缩包
+├── .env                    # 环境变量配置（API密钥等，不提交）
 ├── .env.example            # 环境变量配置模板
 ├── AGENTS.md               # Agent角色说明
 ├── ai_usage_statement.md   # AI使用声明
 ├── ai_worklog_all.md       # AI交互工作日志
-├── companies_list.json     # 公司列表
+├── companies_list.json     # 公司列表（50家公司）
+├── generate_metadata.py    # 元数据生成脚本
+├── final_report.html    # 综合技术报告（HTML）
+├── demo_report(script).md     # Demo
+├── final_slides.pptx     # 最终演示文稿（PowerPoint）
+├── requirements.txt       # Python依赖列表
 └── README.md               # 项目说明文档
 ```
 
@@ -233,12 +249,12 @@ python src/pipeline_run.py --step report
 
 ## 7. 输出文件说明
 
-### 7.1 outputs/reports/
+### 7.1 
 
 | 文件 | 格式 | 说明 |
 |------|------|------|
-| integrated_report_v2.html | HTML | **完整技术报告**，包含架构设计、抽取规则、质量评估、Demo等（2400+行） |
-| summary_report_v2.md | Markdown | **评估结果汇总**，包含50家公司的完成比例、评分、合规判定 |
+| final_report.html | HTML | **完整技术报告**，包含架构设计、抽取规则、质量评估、Demo等（2400+行） |
+| demo_report(script).md | Markdown | **评估结果汇总**，包含50家公司的完成比例、评分、合规判定 |
 
 ### 7.2 outputs/results/
 
