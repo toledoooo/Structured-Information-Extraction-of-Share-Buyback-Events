@@ -1,4 +1,4 @@
-# 股份回购事件结构化信息抽取
+# 上市公司股份回购公告要素结构化抽取与多阶段事件时间线构建
 
 ## 1. 项目概述
 
@@ -107,7 +107,7 @@ repurchase_project_package/
 │   └── md/                 # 公告MD文件（MinerU解析结果）
 ├── outputs/                # 分析结果输出
 │   ├── reports/            # 分析报告
-│   │   ├── integrated_report_v2.html  # 综合技术报告
+│   │   ├── final_report.pdf  # 综合技术报告
 │   │   └── summary_report_v2.md       # 评估结果汇总
 │   └── results/            # 结构化数据结果
 │       ├── records_validated.csv       # 字段抽取结果
