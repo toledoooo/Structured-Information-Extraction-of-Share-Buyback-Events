@@ -1,0 +1,1994 @@
+{
+  "summary": {
+    "total_events": 50,
+    "compliant_count": 32,
+    "compliance_rate": 64.0,
+    "avg_final_score": 0.794,
+    "avg_quality_weight": 0.792,
+    "quality_distribution": {
+      "high": 27,
+      "medium": 23,
+      "low": 0
+    },
+    "completion_distribution": {
+      "high": 14,
+      "medium": 21,
+      "low": 15
+    },
+    "needs_review_count": 0,
+    "needs_review_events": []
+  },
+  "top_issues": [
+    [
+      "金额一致性低(0.50)",
+      2
+    ],
+    [
+      "完成比例低于50%(0.0%)",
+      2
+    ],
+    [
+      "价格合规性低(0.50)",
+      2
+    ],
+    [
+      "综合评分低于阈值(0.64 < 0.75)",
+      2
+    ],
+    [
+      "金额一致性低(0.33)",
+      1
+    ]
+  ],
+  "detailed_scores": [
+    {
+      "event_id": "科大讯飞",
+      "company_name": "科大讯飞",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 75.9372
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.9143,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7609,
+      "adjusted_score": 0.7609,
+      "final_score": 0.787,
+      "confidence": 0.7609,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.91)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 75.94
+    },
+    {
+      "event_id": "信立泰",
+      "company_name": "信立泰",
+      "base_metrics": {
+        "amount_consistency": 0.3322181876168993,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 301.007
+      },
+      "base_score": 0.7329,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7523,
+      "adjusted_score": 0.5514,
+      "final_score": 0.5766,
+      "confidence": 0.7523,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "金额一致性低(0.33)",
+        "综合评分低于阈值(0.58 < 0.75)"
+      ],
+      "completion_ratio": 301.01
+    },
+    {
+      "event_id": "蓝思科技",
+      "company_name": "蓝思科技",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 38.1342829
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7523,
+      "adjusted_score": 0.7523,
+      "final_score": 0.7775,
+      "confidence": 0.7523,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(38.1%)"
+      ],
+      "completion_ratio": 38.13
+    },
+    {
+      "event_id": "保利发展",
+      "company_name": "保利发展",
+      "base_metrics": {
+        "amount_consistency": 0.5,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 0.0
+      },
+      "base_score": 0.8,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8153,
+      "adjusted_score": 0.6522,
+      "final_score": 0.6838,
+      "confidence": 0.8153,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "金额一致性低(0.50)",
+        "完成比例低于50%(0.0%)",
+        "综合评分低于阈值(0.68 < 0.75)"
+      ],
+      "completion_ratio": 0.0
+    },
+    {
+      "event_id": "药明康德",
+      "company_name": "药明康德",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 49.7297
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.95,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8385,
+      "adjusted_score": 0.8385,
+      "final_score": 0.8724,
+      "confidence": 0.8385,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.95)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(49.7%)"
+      ],
+      "completion_ratio": 49.73
+    },
+    {
+      "event_id": "中国平安",
+      "company_name": "中国平安",
+      "base_metrics": {
+        "amount_consistency": 0.5,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 0.0
+      },
+      "base_score": 0.8,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.77,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7918,
+      "adjusted_score": 0.6334,
+      "final_score": 0.6626,
+      "confidence": 0.7918,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.77)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "金额一致性低(0.50)",
+        "完成比例低于50%(0.0%)",
+        "综合评分低于阈值(0.66 < 0.75)"
+      ],
+      "completion_ratio": 0.0
+    },
+    {
+      "event_id": "创新医疗",
+      "company_name": "创新医疗",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 29.755
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7448,
+      "adjusted_score": 0.7448,
+      "final_score": 0.7693,
+      "confidence": 0.7448,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(0.97)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(29.8%)"
+      ],
+      "completion_ratio": 29.75
+    },
+    {
+      "event_id": "兆易创新",
+      "company_name": "兆易创新",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 40.195
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8079,
+      "adjusted_score": 0.8079,
+      "final_score": 0.8387,
+      "confidence": 0.8079,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(40.2%)"
+      ],
+      "completion_ratio": 40.2
+    },
+    {
+      "event_id": "完美世界",
+      "company_name": "完美世界",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 38.258652749999946
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7363,
+      "adjusted_score": 0.7363,
+      "final_score": 0.7599,
+      "confidence": 0.7363,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(38.3%)"
+      ],
+      "completion_ratio": 38.26
+    },
+    {
+      "event_id": "大华股份",
+      "company_name": "大华股份",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 61.99064
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7749,
+      "adjusted_score": 0.7749,
+      "final_score": 0.8024,
+      "confidence": 0.7749,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 61.99
+    },
+    {
+      "event_id": "国邦医药",
+      "company_name": "国邦医药",
+      "base_metrics": {
+        "amount_consistency": 0.6286204443705097,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 159.0785042
+      },
+      "base_score": 0.8514,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.9,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8303,
+      "adjusted_score": 0.707,
+      "final_score": 0.74,
+      "confidence": 0.8303,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.90)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "金额一致性低(0.63)",
+        "综合评分低于阈值(0.74 < 0.75)"
+      ],
+      "completion_ratio": 159.08
+    },
+    {
+      "event_id": "百利天恒",
+      "company_name": "百利天恒",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 80.67800000000001
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8085,
+      "adjusted_score": 0.8085,
+      "final_score": 0.8394,
+      "confidence": 0.8085,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 80.68
+    },
+    {
+      "event_id": "同力股份",
+      "company_name": "同力股份",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 0.9286111220103598
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.4,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.9143,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7834,
+      "adjusted_score": 0.7834,
+      "final_score": 0.8117,
+      "confidence": 0.7834,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(0.97)",
+          "证据质量高(0.91)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(0.9%)"
+      ],
+      "completion_ratio": 0.93
+    },
+    {
+      "event_id": "用友网络",
+      "company_name": "用友网络",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 50.062200000000004
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8068,
+      "adjusted_score": 0.8068,
+      "final_score": 0.8375,
+      "confidence": 0.8068,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 50.06
+    },
+    {
+      "event_id": "牧原股份",
+      "company_name": "牧原股份",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 53.99342
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7749,
+      "adjusted_score": 0.7749,
+      "final_score": 0.8024,
+      "confidence": 0.7749,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 53.99
+    },
+    {
+      "event_id": "歌尔股份",
+      "company_name": "歌尔股份",
+      "base_metrics": {
+        "amount_consistency": 0.8332747739764382,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 120.00843314000001
+      },
+      "base_score": 0.9333,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7749,
+      "adjusted_score": 0.7232,
+      "final_score": 0.7507,
+      "confidence": 0.7749,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 120.01
+    },
+    {
+      "event_id": "三七互娱",
+      "company_name": "三七互娱",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 50.345797000000005
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7449,
+      "adjusted_score": 0.7449,
+      "final_score": 0.7694,
+      "confidence": 0.7449,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 50.35
+    },
+    {
+      "event_id": "格力电器",
+      "company_name": "格力电器",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 67.08381386200001
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8085,
+      "adjusted_score": 0.8085,
+      "final_score": 0.8394,
+      "confidence": 0.8085,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 67.08
+    },
+    {
+      "event_id": "中兴通讯",
+      "company_name": "中兴通讯",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 95.63797500000001
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.92,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8325,
+      "adjusted_score": 0.8325,
+      "final_score": 0.8658,
+      "confidence": 0.8325,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.92)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 95.64
+    },
+    {
+      "event_id": "方大集团",
+      "company_name": "方大集团",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 100.0
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.9,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.821,
+      "adjusted_score": 0.821,
+      "final_score": 0.8531,
+      "confidence": 0.821,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.90)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 100.0
+    },
+    {
+      "event_id": "爱玛科技",
+      "company_name": "爱玛科技",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 99.9802
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8079,
+      "adjusted_score": 0.8079,
+      "final_score": 0.8387,
+      "confidence": 0.8079,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 99.98
+    },
+    {
+      "event_id": "海螺水泥",
+      "company_name": "海螺水泥",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 82.12693696833333
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.7817,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.802,
+      "adjusted_score": 0.802,
+      "final_score": 0.8322,
+      "confidence": 0.802,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.78)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 82.13
+    },
+    {
+      "event_id": "招商蛇口",
+      "company_name": "招商蛇口",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 61.291536052706554
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8771,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7534,
+      "adjusted_score": 0.7534,
+      "final_score": 0.7787,
+      "confidence": 0.7534,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.88)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 61.29
+    },
+    {
+      "event_id": "海康威视",
+      "company_name": "海康威视",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 74.3439840424
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8245,
+      "adjusted_score": 0.8245,
+      "final_score": 0.8569,
+      "confidence": 0.8245,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 74.34
+    },
+    {
+      "event_id": "爱尔眼科",
+      "company_name": "爱尔眼科",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 73.21589300000001
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 1.0,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.778,
+      "adjusted_score": 0.778,
+      "final_score": 0.8058,
+      "confidence": 0.778,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(1.00)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 73.22
+    },
+    {
+      "event_id": "紫金矿业",
+      "company_name": "紫金矿业",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 0.3284684225211664
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.95,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8403,
+      "adjusted_score": 0.8403,
+      "final_score": 0.8743,
+      "confidence": 0.8403,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.95)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(0.3%)"
+      ],
+      "completion_ratio": 0.33
+    },
+    {
+      "event_id": "海 利 得",
+      "company_name": "海 利 得",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 52.13966966666666
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7363,
+      "adjusted_score": 0.7363,
+      "final_score": 0.7599,
+      "confidence": 0.7363,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 52.14
+    },
+    {
+      "event_id": "恒瑞医药",
+      "company_name": "恒瑞医药",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 62.7085
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.95,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8403,
+      "adjusted_score": 0.8403,
+      "final_score": 0.8743,
+      "confidence": 0.8403,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.95)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 62.71
+    },
+    {
+      "event_id": "万科A",
+      "company_name": "万科A",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 24.7380876
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.817,
+      "adjusted_score": 0.817,
+      "final_score": 0.8487,
+      "confidence": 0.817,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(24.7%)"
+      ],
+      "completion_ratio": 24.74
+    },
+    {
+      "event_id": "东方财富",
+      "company_name": "东方财富",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 99.98853999999999
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7449,
+      "adjusted_score": 0.7449,
+      "final_score": 0.7694,
+      "confidence": 0.7449,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 99.99
+    },
+    {
+      "event_id": "海尔智家",
+      "company_name": "海尔智家",
+      "base_metrics": {
+        "amount_consistency": 0.8323782117703312,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 120.137695324
+      },
+      "base_score": 0.933,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.9,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8303,
+      "adjusted_score": 0.7746,
+      "final_score": 0.8077,
+      "confidence": 0.8303,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.90)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 120.14
+    },
+    {
+      "event_id": "中国建筑",
+      "company_name": "中国建筑",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 6.256242819843343
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 1.0,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8503,
+      "adjusted_score": 0.8503,
+      "final_score": 0.8853,
+      "confidence": 0.8503,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(1.00)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(6.3%)"
+      ],
+      "completion_ratio": 6.26
+    },
+    {
+      "event_id": "康强电子",
+      "company_name": "康强电子",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 4.157
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8314,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7443,
+      "adjusted_score": 0.7443,
+      "final_score": 0.7687,
+      "confidence": 0.7443,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(4.2%)"
+      ],
+      "completion_ratio": 4.16
+    },
+    {
+      "event_id": "海天味业",
+      "company_name": "海天味业",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 0.5,
+        "period_compliance": 1.0,
+        "completion_ratio": 70.45616717624999
+      },
+      "base_score": 0.85,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8171,
+      "adjusted_score": 0.6945,
+      "final_score": 0.7262,
+      "confidence": 0.8171,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "价格合规性低(0.50)",
+        "综合评分低于阈值(0.73 < 0.75)"
+      ],
+      "completion_ratio": 70.46
+    },
+    {
+      "event_id": "三一重工",
+      "company_name": "三一重工",
+      "base_metrics": {
+        "amount_consistency": 0.46481817087852184,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 215.13788888888888
+      },
+      "base_score": 0.7859,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.95,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8385,
+      "adjusted_score": 0.659,
+      "final_score": 0.6929,
+      "confidence": 0.8385,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.95)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "金额一致性低(0.46)",
+        "综合评分低于阈值(0.69 < 0.75)"
+      ],
+      "completion_ratio": 215.14
+    },
+    {
+      "event_id": "广宇集团",
+      "company_name": "广宇集团",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 99.98513
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8171,
+      "adjusted_score": 0.8171,
+      "final_score": 0.8488,
+      "confidence": 0.8171,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 99.99
+    },
+    {
+      "event_id": "中联重科",
+      "company_name": "中联重科",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 66.20300357933317
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.85,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.748,
+      "adjusted_score": 0.748,
+      "final_score": 0.7728,
+      "confidence": 0.748,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.85)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 66.2
+    },
+    {
+      "event_id": "比亚迪",
+      "company_name": "比亚迪",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 100.0
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.85,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.748,
+      "adjusted_score": 0.748,
+      "final_score": 0.7728,
+      "confidence": 0.748,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.85)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 100.0
+    },
+    {
+      "event_id": "陕西煤业",
+      "company_name": "陕西煤业",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 0.5,
+        "period_compliance": 1.0,
+        "completion_ratio": 49.1952412062
+      },
+      "base_score": 0.85,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7514,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7283,
+      "adjusted_score": 0.6191,
+      "final_score": 0.6419,
+      "confidence": 0.7283,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.75)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "价格合规性低(0.50)",
+        "完成比例低于50%(49.2%)",
+        "综合评分低于阈值(0.64 < 0.75)"
+      ],
+      "completion_ratio": 49.2
+    },
+    {
+      "event_id": "伊利股份",
+      "company_name": "伊利股份",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 43.878697
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8454,
+      "adjusted_score": 0.8454,
+      "final_score": 0.8799,
+      "confidence": 0.8454,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(43.9%)"
+      ],
+      "completion_ratio": 43.88
+    },
+    {
+      "event_id": "京东方Ａ",
+      "company_name": "京东方Ａ",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 42.033596176
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7363,
+      "adjusted_score": 0.7363,
+      "final_score": 0.7599,
+      "confidence": 0.7363,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [
+        "完成比例低于50%(42.0%)"
+      ],
+      "completion_ratio": 42.03
+    },
+    {
+      "event_id": "金山办公",
+      "company_name": "金山办公",
+      "base_metrics": {
+        "amount_consistency": 0.9998083727280496,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 100.01916639999999
+      },
+      "base_score": 0.9999,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7914,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8085,
+      "adjusted_score": 0.8084,
+      "final_score": 0.8393,
+      "confidence": 0.8085,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.79)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 100.02
+    },
+    {
+      "event_id": "智飞生物",
+      "company_name": "智飞生物",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 60.00152
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7486,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7277,
+      "adjusted_score": 0.7277,
+      "final_score": 0.7505,
+      "confidence": 0.7277,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 60.0
+    },
+    {
+      "event_id": "通威股份",
+      "company_name": "通威股份",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 50.19525
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.9143,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8631,
+      "adjusted_score": 0.8631,
+      "final_score": 0.8994,
+      "confidence": 0.8631,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.91)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 50.2
+    },
+    {
+      "event_id": "迈瑞医疗",
+      "company_name": "迈瑞医疗",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 99.99444512
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.9,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.758,
+      "adjusted_score": 0.758,
+      "final_score": 0.7838,
+      "confidence": 0.758,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.90)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 99.99
+    },
+    {
+      "event_id": "贵州茅台",
+      "company_name": "贵州茅台",
+      "base_metrics": {
+        "amount_consistency": 0.38707394794107813,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 258.348567584875
+      },
+      "base_score": 0.7548,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.8817,
+        "extraction_quality": 0.975,
+        "evidence_quality": 0.85,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8128,
+      "adjusted_score": 0.6135,
+      "final_score": 0.6448,
+      "confidence": 0.8128,
+      "compliance_threshold": 0.75,
+      "is_compliant": false,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(0.97)",
+          "证据质量高(0.85)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [
+        "金额一致性低(0.39)",
+        "综合评分低于阈值(0.64 < 0.75)"
+      ],
+      "completion_ratio": 258.35
+    },
+    {
+      "event_id": "长春高新",
+      "company_name": "长春高新",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 79.99988015199999
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.4,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.7449,
+      "adjusted_score": 0.7449,
+      "final_score": 0.7694,
+      "confidence": 0.7449,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)",
+          "章节质量低(0.40)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 80.0
+    },
+    {
+      "event_id": "隆基绿能",
+      "company_name": "隆基绿能",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 50.48033333333334
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.355,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8343,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8154,
+      "adjusted_score": 0.8154,
+      "final_score": 0.8469,
+      "confidence": 0.8154,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.83)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.35)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 50.48
+    },
+    {
+      "event_id": "顺丰控股",
+      "company_name": "顺丰控股",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 85.898346588
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.405,
+        "section_quality": 0.8817,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.7486,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.81,
+      "adjusted_score": 0.81,
+      "final_score": 0.841,
+      "confidence": 0.81,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.88)",
+          "抽取质量高(1.00)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.41)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 85.9
+    },
+    {
+      "event_id": "韦尔股份",
+      "company_name": "韦尔股份",
+      "base_metrics": {
+        "amount_consistency": 1.0,
+        "price_compliance": 1.0,
+        "period_compliance": 1.0,
+        "completion_ratio": 74.0573287425
+      },
+      "base_score": 1.0,
+      "quality_scores": {
+        "data_quality": 0.505,
+        "section_quality": 0.87,
+        "extraction_quality": 1.0,
+        "evidence_quality": 0.8714,
+        "pipeline_stability": 0.98
+      },
+      "quality_weight": 0.8528,
+      "adjusted_score": 0.8528,
+      "final_score": 0.8881,
+      "confidence": 0.8528,
+      "compliance_threshold": 0.75,
+      "is_compliant": true,
+      "needs_review": false,
+      "quality_impact": {
+        "positive": [
+          "章节质量高(0.87)",
+          "抽取质量高(1.00)",
+          "证据质量高(0.87)",
+          "流程稳定性高(0.98)"
+        ],
+        "negative": [
+          "数据质量低(0.51)"
+        ]
+      },
+      "issues": [],
+      "completion_ratio": 74.06
+    }
+  ]
+}

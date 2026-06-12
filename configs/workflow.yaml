@@ -1,0 +1,30 @@
+project_name: "share_repurchase_extraction"
+paths:
+  metadata: "data/metadata/metadata.csv"
+  pdf_dir: "data/pdf"
+  md_dir: "data/md"
+  parsed_dir: "data/parsed"
+  section_report: "outputs/reports/section_check_report.csv"
+  results_jsonl: "outputs/results/extract_results.jsonl"
+  validated_csv: "outputs/results/records_validated.csv"
+  consistency_report: "outputs/reports/consistency_report.json"
+  run_log: "outputs/logs/run_log.jsonl"
+
+steps:
+  audit:
+    enabled: true
+  parse:
+    enabled: true
+  route_sections:
+    enabled: true
+    rules: "configs/section_rules.yaml"
+  extract:
+    enabled: true
+  validate:
+    enabled: true
+  match_events:
+    enabled: true
+  calculate_consistency:
+    enabled: true
+  report:
+    enabled: true

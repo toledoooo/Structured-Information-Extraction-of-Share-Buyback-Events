@@ -1,0 +1,1301 @@
+{
+  "events": [
+    {
+      "event_id": "科大讯飞",
+      "company_name": "科大讯飞",
+      "stock_code": "2230",
+      "plan_doc_id": "科大讯飞_plan",
+      "progress_doc_ids": [
+        "科大讯飞_progress"
+      ],
+      "result_doc_id": "科大讯飞_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 58.6,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 7.59372,
+        "actual_quantity": 18.555961,
+        "actual_avg_price": 38.39
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "信立泰",
+      "company_name": "信立泰",
+      "stock_code": "2294",
+      "plan_doc_id": "信立泰_plan",
+      "progress_doc_ids": [
+        "信立泰_progress"
+      ],
+      "result_doc_id": "信立泰_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 2.0,
+        "total_amount_lower": 1.0,
+        "price_upper": 33.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 6.02014,
+        "actual_quantity": 23.4575,
+        "actual_avg_price": 25.63
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "蓝思科技",
+      "company_name": "蓝思科技",
+      "stock_code": "300433",
+      "plan_doc_id": "蓝思科技_plan",
+      "progress_doc_ids": [
+        "蓝思科技_progress"
+      ],
+      "result_doc_id": "蓝思科技_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 35.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 3.81342829,
+        "actual_quantity": 1284.9007,
+        "actual_avg_price": 29.7
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "保利发展",
+      "company_name": "保利发展",
+      "stock_code": "600048",
+      "plan_doc_id": "保利发展_plan",
+      "progress_doc_ids": [
+        "保利发展_progress"
+      ],
+      "result_doc_id": "保利发展_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 20.0,
+        "total_amount_lower": 10.0,
+        "price_upper": 15.19,
+        "price_lower": null,
+        "repurchase_period_months": 3,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": null,
+        "actual_quantity": 10503.16,
+        "actual_avg_price": 9.53
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "药明康德",
+      "company_name": "药明康德",
+      "stock_code": "603259",
+      "plan_doc_id": "药明康德_plan",
+      "progress_doc_ids": [
+        "药明康德_progress"
+      ],
+      "result_doc_id": "药明康德_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 10.0,
+        "price_upper": 92.05,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 4.97297,
+        "actual_quantity": 6.514425,
+        "actual_avg_price": 76.2
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "中国平安",
+      "company_name": "中国平安",
+      "stock_code": "601318",
+      "plan_doc_id": "中国平安_plan",
+      "progress_doc_ids": [
+        "中国平安_progress"
+      ],
+      "result_doc_id": "中国平安_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 100.0,
+        "total_amount_lower": 50.0,
+        "price_upper": 82.56,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "员工持股计划"
+      },
+      "final_execution": {
+        "actual_amount": null,
+        "actual_quantity": 10259.2612,
+        "actual_avg_price": 47.84
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "创新医疗",
+      "company_name": "创新医疗",
+      "stock_code": "2173",
+      "plan_doc_id": "创新医疗_plan",
+      "progress_doc_ids": [
+        "创新医疗_progress"
+      ],
+      "result_doc_id": "创新医疗_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 1.0,
+        "total_amount_lower": 0.5,
+        "price_upper": 9.5,
+        "price_lower": null,
+        "repurchase_period_months": 3,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 0.29755,
+        "actual_quantity": 4.939498,
+        "actual_avg_price": 6.03
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "兆易创新",
+      "company_name": "兆易创新",
+      "stock_code": "603986",
+      "plan_doc_id": "兆易创新_plan",
+      "progress_doc_ids": [
+        "兆易创新_progress"
+      ],
+      "result_doc_id": "兆易创新_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 2.0,
+        "total_amount_lower": 1.5,
+        "price_upper": 110.0,
+        "price_lower": null,
+        "repurchase_period_months": 6,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 0.8039,
+        "actual_quantity": 97.32,
+        "actual_avg_price": 82.6
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "完美世界",
+      "company_name": "完美世界",
+      "stock_code": "2624",
+      "plan_doc_id": "完美世界_plan",
+      "progress_doc_ids": [
+        "完美世界_progress"
+      ],
+      "result_doc_id": "完美世界_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 2.0,
+        "total_amount_lower": 1.0,
+        "price_upper": 19.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 0.765173054999999,
+        "actual_quantity": 7.126,
+        "actual_avg_price": 10.74
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "大华股份",
+      "company_name": "大华股份",
+      "stock_code": "2236",
+      "plan_doc_id": "大华股份_plan",
+      "progress_doc_ids": [
+        "大华股份_progress"
+      ],
+      "result_doc_id": "大华股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 5.0,
+        "total_amount_lower": 3.0,
+        "price_upper": 27.72,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 3.099532,
+        "actual_quantity": 17.4935,
+        "actual_avg_price": 17.7
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "国邦医药",
+      "company_name": "国邦医药",
+      "stock_code": "605507",
+      "plan_doc_id": "国邦医药_plan",
+      "progress_doc_ids": [
+        "国邦医药_progress",
+        "国邦医药_progress_1"
+      ],
+      "result_doc_id": null,
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 1.0,
+        "total_amount_lower": 1.0,
+        "price_upper": 25.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 1.590785042,
+        "actual_quantity": 7.767174,
+        "actual_avg_price": 20.47
+      },
+      "timeline_completeness": 0.6
+    },
+    {
+      "event_id": "百利天恒",
+      "company_name": "百利天恒",
+      "stock_code": "688506",
+      "plan_doc_id": "百利天恒_plan",
+      "progress_doc_ids": [
+        "百利天恒_progress"
+      ],
+      "result_doc_id": "百利天恒_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 2.0,
+        "total_amount_lower": 1.0,
+        "price_upper": 546.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 1.61356,
+        "actual_quantity": 54.3888,
+        "actual_avg_price": 295.79
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "同力股份",
+      "company_name": "同力股份",
+      "stock_code": "834599",
+      "plan_doc_id": "同力股份_plan",
+      "progress_doc_ids": [
+        "同力股份_progress"
+      ],
+      "result_doc_id": "同力股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 70.34124,
+        "total_amount_lower": 1.05,
+        "price_upper": 15.0,
+        "price_lower": null,
+        "repurchase_period_months": 6,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 0.653196578,
+        "actual_quantity": 4.980448,
+        "actual_avg_price": 14.68
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "用友网络",
+      "company_name": "用友网络",
+      "stock_code": "600588",
+      "plan_doc_id": "用友网络_plan",
+      "progress_doc_ids": [
+        "用友网络_progress"
+      ],
+      "result_doc_id": "用友网络_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 1.0,
+        "total_amount_lower": 0.5,
+        "price_upper": 13.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 0.500622,
+        "actual_quantity": 414.409,
+        "actual_avg_price": 12.09
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "牧原股份",
+      "company_name": "牧原股份",
+      "stock_code": "2714",
+      "plan_doc_id": "牧原股份_plan",
+      "progress_doc_ids": [
+        "牧原股份_progress"
+      ],
+      "result_doc_id": "牧原股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 40.0,
+        "total_amount_lower": 30.0,
+        "price_upper": 58.6,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 21.597368,
+        "actual_quantity": 536.312,
+        "actual_avg_price": 40.2999
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "歌尔股份",
+      "company_name": "歌尔股份",
+      "stock_code": "2241",
+      "plan_doc_id": "歌尔股份_plan",
+      "progress_doc_ids": [
+        "歌尔股份_progress"
+      ],
+      "result_doc_id": "歌尔股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 38.97,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 12.000843314,
+        "actual_quantity": 4419.9946,
+        "actual_avg_price": 27.175
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "三七互娱",
+      "company_name": "三七互娱",
+      "stock_code": "2555",
+      "plan_doc_id": "三七互娱_plan",
+      "progress_doc_ids": [
+        "三七互娱_progress"
+      ],
+      "result_doc_id": "三七互娱_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 2.0,
+        "total_amount_lower": 1.0,
+        "price_upper": 33.9,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 1.00691594,
+        "actual_quantity": 562.66,
+        "actual_avg_price": 17.904
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "格力电器",
+      "company_name": "格力电器",
+      "stock_code": "651",
+      "plan_doc_id": "格力电器_plan",
+      "progress_doc_ids": [
+        "格力电器_progress"
+      ],
+      "result_doc_id": "格力电器_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 30.0,
+        "total_amount_lower": 15.0,
+        "price_upper": 50.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 20.1251441586,
+        "actual_quantity": 61.378615,
+        "actual_avg_price": 32.8
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "中兴通讯",
+      "company_name": "中兴通讯",
+      "stock_code": "63",
+      "plan_doc_id": "中兴通讯_plan",
+      "progress_doc_ids": [
+        "中兴通讯_progress"
+      ],
+      "result_doc_id": null,
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 1.2,
+        "total_amount_lower": 1.0,
+        "price_upper": 62.48,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 1.1476557,
+        "actual_quantity": 297.39,
+        "actual_avg_price": 38.65
+      },
+      "timeline_completeness": 0.6
+    },
+    {
+      "event_id": "方大集团",
+      "company_name": "方大集团",
+      "stock_code": "55",
+      "plan_doc_id": "方大集团_plan",
+      "progress_doc_ids": [
+        "方大集团_progress"
+      ],
+      "result_doc_id": "方大集团_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 0.5,
+        "total_amount_lower": 0.5,
+        "price_upper": 4.69,
+        "price_lower": null,
+        "repurchase_period_months": 3,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 0.5,
+        "actual_quantity": 1095.9326,
+        "actual_avg_price": 3.32
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "爱玛科技",
+      "company_name": "爱玛科技",
+      "stock_code": "603529",
+      "plan_doc_id": "爱玛科技_plan",
+      "progress_doc_ids": [
+        "爱玛科技_progress"
+      ],
+      "result_doc_id": "爱玛科技_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 4.0,
+        "total_amount_lower": 2.0,
+        "price_upper": 47.32,
+        "price_lower": null,
+        "repurchase_period_months": 6,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 3.999208,
+        "actual_quantity": 1413.0524,
+        "actual_avg_price": 28.3
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "海螺水泥",
+      "company_name": "海螺水泥",
+      "stock_code": "600585",
+      "plan_doc_id": "海螺水泥_plan",
+      "progress_doc_ids": [
+        "海螺水泥_progress"
+      ],
+      "result_doc_id": "海螺水泥_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 6.0,
+        "total_amount_lower": 4.0,
+        "price_upper": 32.3,
+        "price_lower": null,
+        "repurchase_period_months": 3,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 4.9276162181,
+        "actual_quantity": 21.9025,
+        "actual_avg_price": 22.47
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "招商蛇口",
+      "company_name": "招商蛇口",
+      "stock_code": "1979",
+      "plan_doc_id": "招商蛇口_plan",
+      "progress_doc_ids": [
+        "招商蛇口_progress"
+      ],
+      "result_doc_id": "招商蛇口_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 7.02,
+        "total_amount_lower": 3.51,
+        "price_upper": 15.68,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 4.3026658309,
+        "actual_quantity": 44.804,
+        "actual_avg_price": 9.5999
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "海康威视",
+      "company_name": "海康威视",
+      "stock_code": "2415",
+      "plan_doc_id": "海康威视_plan",
+      "progress_doc_ids": [
+        "海康威视_progress"
+      ],
+      "result_doc_id": "海康威视_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 25.0,
+        "total_amount_lower": 20.0,
+        "price_upper": 40.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 18.5859960106,
+        "actual_quantity": 62.791259,
+        "actual_avg_price": 29.59
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "爱尔眼科",
+      "company_name": "爱尔眼科",
+      "stock_code": "300015",
+      "plan_doc_id": "爱尔眼科_plan",
+      "progress_doc_ids": [
+        "爱尔眼科_progress"
+      ],
+      "result_doc_id": "爱尔眼科_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 3.0,
+        "total_amount_lower": 2.0,
+        "price_upper": 26.98,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 2.19647679,
+        "actual_quantity": 127.98657,
+        "actual_avg_price": 14.61
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "紫金矿业",
+      "company_name": "紫金矿业",
+      "stock_code": "601899",
+      "plan_doc_id": "紫金矿业_plan",
+      "progress_doc_ids": [
+        "紫金矿业_progress"
+      ],
+      "result_doc_id": "紫金矿业_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 5120.051425,
+        "total_amount_lower": 5120.051425,
+        "price_upper": 41.5,
+        "price_lower": null,
+        "repurchase_period_months": 36,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 16.81775214797,
+        "actual_quantity": 53.030092,
+        "actual_avg_price": 31.73
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "海利得",
+      "company_name": "海 利 得",
+      "stock_code": "2206",
+      "plan_doc_id": "海利得_plan",
+      "progress_doc_ids": [
+        "海利得_progress"
+      ],
+      "result_doc_id": "海利得_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 3.0,
+        "total_amount_lower": 1.5,
+        "price_upper": 6.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 1.56419009,
+        "actual_quantity": 35.337272,
+        "actual_avg_price": 4.42
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "恒瑞医药",
+      "company_name": "恒瑞医药",
+      "stock_code": "600276",
+      "plan_doc_id": "恒瑞医药_plan",
+      "progress_doc_ids": [
+        "恒瑞医药_progress"
+      ],
+      "result_doc_id": "恒瑞医药_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 6.0,
+        "total_amount_lower": 6.0,
+        "price_upper": 67.38,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 3.76251,
+        "actual_quantity": 858.41,
+        "actual_avg_price": 43.8
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "万科A",
+      "company_name": "万科A",
+      "stock_code": "2",
+      "plan_doc_id": "万科A_plan",
+      "progress_doc_ids": [
+        "万科A_progress"
+      ],
+      "result_doc_id": "万科A_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 25.0,
+        "total_amount_lower": 20.0,
+        "price_upper": 18.27,
+        "price_lower": null,
+        "repurchase_period_months": 3,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 6.1845219,
+        "actual_quantity": 345.787,
+        "actual_avg_price": 17.878
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "东方财富",
+      "company_name": "东方财富",
+      "stock_code": "300059",
+      "plan_doc_id": "东方财富_plan",
+      "progress_doc_ids": [
+        "东方财富_progress"
+      ],
+      "result_doc_id": "东方财富_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 22.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 9.998854,
+        "actual_quantity": 71.452577,
+        "actual_avg_price": 13.999
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "海尔智家",
+      "company_name": "海尔智家",
+      "stock_code": "600690",
+      "plan_doc_id": "海尔智家_plan",
+      "progress_doc_ids": [
+        "海尔智家_progress"
+      ],
+      "result_doc_id": "海尔智家_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 10.0,
+        "price_upper": 40.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 12.0137695324,
+        "actual_quantity": 47.5757,
+        "actual_avg_price": 25.43
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "中国建筑",
+      "company_name": "中国建筑",
+      "stock_code": "601668",
+      "plan_doc_id": "中国建筑_plan",
+      "progress_doc_ids": [],
+      "result_doc_id": "中国建筑_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 76.6,
+        "total_amount_lower": 76.6,
+        "price_upper": 7.66,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 4.792282,
+        "actual_quantity": 9120.36,
+        "actual_avg_price": 5.25
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "康强电子",
+      "company_name": "康强电子",
+      "stock_code": "2119",
+      "plan_doc_id": "康强电子_plan",
+      "progress_doc_ids": [
+        "康强电子_progress"
+      ],
+      "result_doc_id": "康强电子_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 1.0,
+        "total_amount_lower": 0.6,
+        "price_upper": 25.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 0.04157,
+        "actual_quantity": 2.34,
+        "actual_avg_price": 17.7652173913
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "海天味业",
+      "company_name": "海天味业",
+      "stock_code": "603288",
+      "plan_doc_id": "海天味业_plan",
+      "progress_doc_ids": [
+        "海天味业_progress"
+      ],
+      "result_doc_id": "海天味业_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 8.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 56.6,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 5.6364933741,
+        "actual_quantity": 1528.9491,
+        "actual_avg_price": null
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "三一重工",
+      "company_name": "三一重工",
+      "stock_code": "600031",
+      "plan_doc_id": "三一重工_plan",
+      "progress_doc_ids": [
+        "三一重工_progress"
+      ],
+      "result_doc_id": "三一重工_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 6.3,
+        "total_amount_lower": 6.3,
+        "price_upper": 29.1,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 13.553687,
+        "actual_quantity": 7267.92,
+        "actual_avg_price": 18.63
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "广宇集团",
+      "company_name": "广宇集团",
+      "stock_code": "2133",
+      "plan_doc_id": "广宇集团_plan",
+      "progress_doc_ids": [
+        "广宇集团_progress"
+      ],
+      "result_doc_id": "广宇集团_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 0.3,
+        "total_amount_lower": 0.15,
+        "price_upper": 4.0,
+        "price_lower": null,
+        "repurchase_period_months": 36,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 0.29995539,
+        "actual_quantity": 1010.8,
+        "actual_avg_price": 2.97
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "中联重科",
+      "company_name": "中联重科",
+      "stock_code": "157",
+      "plan_doc_id": "中联重科_plan",
+      "progress_doc_ids": [
+        "中联重科_progress"
+      ],
+      "result_doc_id": "中联重科_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 39.87537425,
+        "total_amount_lower": 39.87537425,
+        "price_upper": 9.19,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "员工持股计划"
+      },
+      "final_execution": {
+        "actual_amount": 26.398695442,
+        "actual_quantity": 42.3956766,
+        "actual_avg_price": 6.22
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "比亚迪",
+      "company_name": "比亚迪",
+      "stock_code": "2594",
+      "plan_doc_id": "比亚迪_plan",
+      "progress_doc_ids": [
+        "比亚迪_progress"
+      ],
+      "result_doc_id": "比亚迪_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 4.0,
+        "total_amount_lower": 4.0,
+        "price_upper": 270.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 4.0,
+        "actual_quantity": 187.7,
+        "actual_avg_price": 214.03
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "陕西煤业",
+      "company_name": "陕西煤业",
+      "stock_code": "601225",
+      "plan_doc_id": "陕西煤业_plan",
+      "progress_doc_ids": [
+        "陕西煤业_progress"
+      ],
+      "result_doc_id": "陕西煤业_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 50.0,
+        "total_amount_lower": 10.0,
+        "price_upper": 10.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 24.5976206031,
+        "actual_quantity": 3000.0,
+        "actual_avg_price": null
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "伊利股份",
+      "company_name": "伊利股份",
+      "stock_code": "600887",
+      "plan_doc_id": "伊利股份_plan",
+      "progress_doc_ids": [
+        "伊利股份_progress"
+      ],
+      "result_doc_id": "伊利股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 20.0,
+        "total_amount_lower": 10.0,
+        "price_upper": 41.88,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 8.7757394,
+        "actual_quantity": 36.205761,
+        "actual_avg_price": 24.23
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "京东方Ａ",
+      "company_name": "京东方Ａ",
+      "stock_code": "725",
+      "plan_doc_id": "京东方Ａ_plan",
+      "progress_doc_ids": [
+        "京东方Ａ_progress"
+      ],
+      "result_doc_id": "京东方Ａ_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 6.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自筹资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 4.2033596176,
+        "actual_quantity": 100.501158,
+        "actual_avg_price": 4.183
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "金山办公",
+      "company_name": "金山办公",
+      "stock_code": "688111",
+      "plan_doc_id": "金山办公_plan",
+      "progress_doc_ids": [
+        "金山办公_progress"
+      ],
+      "result_doc_id": "金山办公_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 1.0,
+        "total_amount_lower": 0.5,
+        "price_upper": 380.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 1.000191664,
+        "actual_quantity": 46.1483,
+        "actual_avg_price": 216.73
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "智飞生物",
+      "company_name": "智飞生物",
+      "stock_code": "300122",
+      "plan_doc_id": "智飞生物_plan_1",
+      "progress_doc_ids": [
+        "智飞生物_progress"
+      ],
+      "result_doc_id": "智飞生物_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 5.0,
+        "total_amount_lower": 3.0,
+        "price_upper": 75.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 3.000076,
+        "actual_quantity": 621.0253,
+        "actual_avg_price": 48.37
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "通威股份",
+      "company_name": "通威股份",
+      "stock_code": "600438",
+      "plan_doc_id": "通威股份_plan",
+      "progress_doc_ids": [
+        "通威股份_progress"
+      ],
+      "result_doc_id": "通威股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 40.0,
+        "total_amount_lower": 20.0,
+        "price_upper": 36.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 20.0781,
+        "actual_quantity": 10168.8812,
+        "actual_avg_price": 19.76
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "迈瑞医疗",
+      "company_name": "迈瑞医疗",
+      "stock_code": "300760",
+      "plan_doc_id": "迈瑞医疗_plan",
+      "progress_doc_ids": [],
+      "result_doc_id": "迈瑞医疗_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 10.0,
+        "price_upper": 400.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 9.999444512,
+        "actual_quantity": 324.9872,
+        "actual_avg_price": 307.595
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "贵州茅台",
+      "company_name": "贵州茅台",
+      "stock_code": "600519",
+      "plan_doc_id": "贵州茅台_plan",
+      "progress_doc_ids": [
+        "贵州茅台_progress"
+      ],
+      "result_doc_id": "贵州茅台_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 11.611962,
+        "total_amount_lower": 11.611962,
+        "price_upper": 1887.63,
+        "price_lower": null,
+        "repurchase_period_months": 6,
+        "funding_source": "自有资金",
+        "repurpose": "注销减少注册资本"
+      },
+      "final_execution": {
+        "actual_amount": 29.9993374955,
+        "actual_quantity": 218.8614,
+        "actual_avg_price": 1370.7
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "长春高新",
+      "company_name": "长春高新",
+      "stock_code": "661",
+      "plan_doc_id": "长春高新_plan",
+      "progress_doc_ids": [
+        "长春高新_progress"
+      ],
+      "result_doc_id": "长春高新_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 5.0,
+        "total_amount_lower": 3.0,
+        "price_upper": 160.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 3.9999940076,
+        "actual_quantity": 389.4517,
+        "actual_avg_price": 103.26
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "隆基绿能",
+      "company_name": "隆基绿能",
+      "stock_code": "601012",
+      "plan_doc_id": "隆基绿能_plan",
+      "progress_doc_ids": [
+        "隆基绿能_progress"
+      ],
+      "result_doc_id": "隆基绿能_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 6.0,
+        "total_amount_lower": 3.0,
+        "price_upper": 31.54,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 3.02882,
+        "actual_quantity": 2017.76,
+        "actual_avg_price": 15.0
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "顺丰控股",
+      "company_name": "顺丰控股",
+      "stock_code": "None",
+      "plan_doc_id": "顺丰控股_plan_1",
+      "progress_doc_ids": [
+        "顺丰控股_progress"
+      ],
+      "result_doc_id": "顺丰控股_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 10.0,
+        "total_amount_lower": 5.0,
+        "price_upper": 53.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 8.5898346588,
+        "actual_quantity": 23.270358,
+        "actual_avg_price": 36.91
+      },
+      "timeline_completeness": 1.0
+    },
+    {
+      "event_id": "韦尔股份",
+      "company_name": "韦尔股份",
+      "stock_code": "603501",
+      "plan_doc_id": "韦尔股份_plan",
+      "progress_doc_ids": [
+        "韦尔股份_progress"
+      ],
+      "result_doc_id": "韦尔股份_result",
+      "plan": {
+        "repurchase_method": "集中竞价交易",
+        "total_amount_upper": 12.0,
+        "total_amount_lower": 6.0,
+        "price_upper": 97.0,
+        "price_lower": null,
+        "repurchase_period_months": 12,
+        "funding_source": "自有资金",
+        "repurpose": "股权激励"
+      },
+      "final_execution": {
+        "actual_amount": 8.8868794491,
+        "actual_quantity": 99.0,
+        "actual_avg_price": 89.768
+      },
+      "timeline_completeness": 1.0
+    }
+  ]
+}

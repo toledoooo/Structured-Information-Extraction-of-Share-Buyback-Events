@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-06-11",
+  "total_reviewed": 6,
+  "compliant_after_review": 0,
+  "non_compliant_after_review": 6,
+  "results": [
+    {
+      "company": "信立泰",
+      "is_compliant": false,
+      "reason": "超额回购严重（完成比例: 301.01%），超出计划金额2倍以上",
+      "suggestion": "建议核查是否有方案调整公告或监管批准"
+    },
+    {
+      "company": "保利发展",
+      "is_compliant": false,
+      "reason": "回购计划未执行（完成比例: 0.00%）",
+      "suggestion": "请查阅最新公告，确认是否终止或延期"
+    },
+    {
+      "company": "中国平安",
+      "is_compliant": false,
+      "reason": "回购计划未执行（完成比例: 0.00%）",
+      "suggestion": "请查阅最新公告，确认是否终止或延期"
+    },
+    {
+      "company": "三一重工",
+      "is_compliant": false,
+      "reason": "超额回购严重（完成比例: 215.14%），超出计划金额2倍以上",
+      "suggestion": "建议核查是否有方案调整公告或监管批准"
+    },
+    {
+      "company": "陕西煤业",
+      "is_compliant": false,
+      "reason": "综合评分较低（0.6419），价格合规性低(0.50); 完成比例低于50%(49.2%); 综合评分低于阈值(0.64 < 0.7)",
+      "suggestion": "建议人工复核原始公告"
+    },
+    {
+      "company": "贵州茅台",
+      "is_compliant": false,
+      "reason": "超额回购严重（完成比例: 258.35%），超出计划金额2倍以上",
+      "suggestion": "建议核查是否有方案调整公告或监管批准"
+    }
+  ]
+}
