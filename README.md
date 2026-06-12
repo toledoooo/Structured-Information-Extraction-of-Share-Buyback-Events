@@ -357,8 +357,7 @@ python src/pipeline_run.py --step report
 | AGENTS.md | Agent角色定义 |
 | ai_usage_statement.md | AI使用声明 |
 | ai_worklog_all.md | AI交互日志 |
-| outputs/reports/integrated_report_v2.html | 完整技术报告 |
-| outputs/reports/summary_report_v2.md | 评估结果汇总 |
+| final_slides.pptx | 项目汇报ppt |
 
 ### 10.2 运行验证
 
